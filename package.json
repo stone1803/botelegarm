@@ -1,18 +1,19 @@
 {
-  "name": "bot",
+  "name": "bookmark-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "node-coinmarketcap": "^0.2.0",
-    "node-telegram-bot-api": "^0.40.0",
-    "request": "^2.88.2"
-  },
-  "devDependencies": {},
+  "license": "MIT",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "axios": "^0.19.2",
+    "node-telegram-bot-api": "^0.40.0",
+    "node-telegram-bot-api": "^0.40.0"
+  },
+  "engines": {
+    "node": "10.3.0"
+  }
 }
+
+
